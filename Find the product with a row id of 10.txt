@@ -1,0 +1,21 @@
+db.Products.find({"id":"10"});
+{
+  _id: ObjectId("63ff68299958600e3dd6cae6"),
+  id: '10',
+  product_name: 'Generic Wooden Pizza',
+  product_price: 84,
+  product_material: 'Frozen',
+  product_color: 'indigo'
+}
+
+
+
+db.Products.findOne({"id":"10"});
+{
+  _id: ObjectId("63ff68299958600e3dd6cae6"),
+  id: '10',
+  product_name: 'Generic Wooden Pizza',
+  product_price: 84,
+  product_material: 'Frozen',
+  product_color: 'indigo'
+}

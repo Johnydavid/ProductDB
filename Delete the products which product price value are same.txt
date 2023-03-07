@@ -1,0 +1,5 @@
+db.Products.deleteMany({"product_price":36});
+{
+  acknowledged: true,
+  deletedCount: 2
+}
